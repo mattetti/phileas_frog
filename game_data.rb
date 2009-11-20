@@ -129,14 +129,14 @@ module GameData
     
     # Rubies
     config[:rubies].times do
-      height = FallingItem.random_size
+      height = FallingRuby.random_size
       width = height * config[:ruby_ratio]
       add_item FallingRuby.new(rand, 1, width, height, true, FallingRuby::IMAGES[rand(FallingRuby::IMAGES.size)])    
     end if config[:rubies]
     
     # Bombs (or whatever would
     config[:bombs].times do
-      height = FallingItem.random_size(Bomb.min_size)
+      height = FallingRuby.random_size(Bomb.min_size)
       width = height * config[:bomb_ratio]
       add_item Bomb.new(rand, 1, width, height, true, config[:bomb_image])    
     end if config[:bombs]
