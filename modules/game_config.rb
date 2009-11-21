@@ -76,3 +76,17 @@ module GameConfig
   end
 
 end
+
+
+
+#                             { :name          => 'Disco',
+#                               :rubies        => 2,
+#                               :bombs         => 5,
+#                               :score_limit   => 9999999,
+#                               :vehicle       => nil,
+#                               :bomb_image    => 'disco_ball',
+#                               :bomb_ratio    => 0.93,
+#                               :ruby_ratio    => 1.5,
+#                               :player_width  => 0.2,
+#                               :player_height => 0.25
+#                             }                      

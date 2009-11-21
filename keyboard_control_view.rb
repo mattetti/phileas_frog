@@ -59,7 +59,7 @@ class KeyboardControlView < NSView
       elsif character == Q_KEY_CODE
         exit
       else
-       puts character
+       # puts character
       end
     end
     # super
