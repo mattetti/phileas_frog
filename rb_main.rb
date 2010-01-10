@@ -21,6 +21,8 @@
 framework 'Cocoa'
 framework 'QuartzCore'
 
+puts NSBundle.mainBundle.localizations
+
 # Loading all the Ruby project files.
 dir_path = NSBundle.mainBundle.resourcePath.fileSystemRepresentation
 $LOAD_PATH.unshift(dir_path)

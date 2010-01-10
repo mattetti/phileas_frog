@@ -102,10 +102,10 @@ class ImageLayer < CALayer
     angle    = item.angle
     visible  = item.visible
 
-    self.bounds = CGRectMake(0, 0, @width, @height)
-    self.position = CGPointMake(@x, @y)
+    self.bounds    = CGRectMake(0, 0, @width, @height)
+    self.position  = CGPointMake(@x, @y)
     self.transform = CATransform3DMakeRotation(angle, 0, 0, 1.0)
-    self.hidden = !visible 
+    self.hidden    = !visible 
   end
 
   # for debugging purposes

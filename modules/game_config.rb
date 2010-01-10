@@ -22,7 +22,7 @@ module GameConfig
   module_function
   
   def starting_lives
-    5
+    7
   end
   
   def data
@@ -63,30 +63,27 @@ module GameConfig
                             { :name          => 'hiphop',
                               :rubies        => 2,
                               :bombs         => 5,
-                              :score_limit   => 999999,
+                              :score_limit   => 550,
                               :vehicle       => 'skate',
                               :bomb_image    => 'coke',
                               :bomb_ratio    => 0.67,
                               :ruby_ratio    => 1.5,
                               :player_width  => 0.18,
                               :player_height => 0.2
-                            }
+                            },
+                            { :name          => 'Disco',
+                              :rubies        => 2,
+                              :bombs         => 5,
+                              :score_limit   => 9999999,
+                              :vehicle       => nil,
+                              :bomb_image    => 'disco_ball',
+                              :bomb_ratio    => 0.93,
+                              :ruby_ratio    => 1.5,
+                              :player_width  => 0.2,
+                              :player_height => 0.25
+                            } 
                           ]
               }
   end
 
 end
-
-
-
-#                             { :name          => 'Disco',
-#                               :rubies        => 2,
-#                               :bombs         => 5,
-#                               :score_limit   => 9999999,
-#                               :vehicle       => nil,
-#                               :bomb_image    => 'disco_ball',
-#                               :bomb_ratio    => 0.93,
-#                               :ruby_ratio    => 1.5,
-#                               :player_width  => 0.2,
-#                               :player_height => 0.25
-#                             }                      
